@@ -1,4 +1,4 @@
-Chatting Room
+SOCKET programming in C
 =
 Based on C, s simple SOCKET program. 
 ## Develope Environment
