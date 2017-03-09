@@ -1,6 +1,6 @@
 SOCKET Programming in C
 =
-Based on C, s simple SOCKET program. 
+Based on C, a simple SOCKET program. The two have dialog
 ## Develope Environment
 
 |       OS       |            Compiler                |     Compiler Options  |
