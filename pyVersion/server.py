@@ -1,8 +1,4 @@
-'''
-	 POWERD BY ZHANGMING 
-	 ALL RIGHTS RESERVERD
-'''
-#ALL THE IMPORT
+# coding = utf-8
 import socket
 import sys
 
@@ -11,7 +7,7 @@ import sys
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #ESTABLISH FINISHED
 host = socket.gethostname()
-port = 9999
+port = 5000
 
 #BIND THE HOSTNAME AND PORT WITH A TURPLE
 server.bind((host,port))

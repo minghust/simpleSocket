@@ -1,8 +1,4 @@
-'''
-	 POWERD BY ZHANGMING 
-	 ALL RIGHTS RESERVERD
-'''
-#ALL THE IMPORT 
+# coding = utf-8
 import socket
 import sys
 
@@ -10,7 +6,7 @@ import sys
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #ESTABLISH FINISHED
 host = socket.gethostname()
-port = 9999
+port = 5000
 
 #THE MOST LARGE NUMBER OF CLIENTS WHITCH COULD BE LISTENED
 client.connect((host,port))
