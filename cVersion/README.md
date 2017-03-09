@@ -58,7 +58,7 @@ You should know about **TCP/IP** protocol and what is **socket**.<br \>
 
 
 ## Exceptation
-all the cpu bellow has big endian, you should test your cpu first.<br \>
+All the cpu bellow has big endian, you should test your cpu first.(I don't want to tell you how to test:)<br \>
 mainly for function **htons** & **htonl** & **inet_aton**
 
 - Motorola680x()
