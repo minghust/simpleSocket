@@ -3,9 +3,9 @@ SOCKET Programming in C
 Based on C, s simple SOCKET program. 
 ## Develope Environment
 
-|       OS       |            Compiler                |     compile option  |
-|----------------|------------------------------------|---------------------|
-|  OS X 10.10.5  | LLVM version 7.0.0 (clang-700.1.76)|    -std=c99 -Wall   |
+|       OS       |            Compiler                |     Compiler Options  |
+|----------------|------------------------------------|-----------------------|
+|  OS X 10.10.5  | LLVM version 7.0.0 (clang-700.1.76)|      -std=c99 -Wall   |
 
 ## Prerequisite
 You should know about **TCP/IP** protocol and what is **socket**.<br \>
@@ -58,7 +58,7 @@ You should know about **TCP/IP** protocol and what is **socket**.<br \>
 
 
 ## Exceptation
-All the cpu bellow has big endian, you should test your cpu first.(I don't want to tell you how to test:)<br \>
+All the cpu bellow has big endian, you should test your cpu first.(I think you know how to test:)<br \>
 mainly for function **htons** & **htonl** & **inet_aton**
 
 - Motorola680x()
